@@ -91,9 +91,11 @@ export function Header() {
               <DropdownMenuSeparator className="bg-[#E1E1E1]" />
 
               <DropdownMenuGroup>
+                <DropdownMenuItem>Accessories</DropdownMenuItem>
+                <DropdownMenuItem>Hoodie</DropdownMenuItem>
+                <DropdownMenuItem>Jacket</DropdownMenuItem>
                 <DropdownMenuItem>Pants</DropdownMenuItem>
                 <DropdownMenuItem>Shirts</DropdownMenuItem>
-                <DropdownMenuItem>Jacket</DropdownMenuItem>
                 <DropdownMenuItem>Shoes</DropdownMenuItem>
               </DropdownMenuGroup>
             </DropdownMenuContent>
@@ -124,7 +126,7 @@ export function Header() {
           </Avatar>
         </header>
 
-        <div className="max-[768px]:hidden relative mt-8 max-w-[600px] mx-auto rounded-2xl overflow-hidden lg:max-w-[700px]">
+        <div className="max-[768px]:hidden relative mt-8 max-w-[600px] mx-auto rounded-2xl overflow-hidden lg:max-w-[700px] xl:max-w-[1000px] lg:max-h-[240px]">
           <img
             src={IMAGENS.BackgroundClothers}
             className="w-full h-auto block"
